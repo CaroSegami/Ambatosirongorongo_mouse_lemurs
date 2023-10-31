@@ -1,0 +1,5 @@
+# Load iqTREE
+module load IQ-TREE/1.6.12
+# Run iqTREE
+iqtree -s concat_all.fa \
+ -m MFP -bb 1000 -nt 8   #-nt to specify the number of threads
